@@ -1,4 +1,4 @@
-nav {
+#navAcceuil {
     min-height: 3rem;
     padding: 0 1rem 0 0.8rem;
     display: flex;
@@ -7,14 +7,19 @@ nav {
     align-items: center;
     background-color: blueviolet;
 }
+#nav-blog{
+    display: flex;
+    flex-direction: row;
+}
+
 footer{
     background-color: aqua;
     display: flex;
     justify-content: space-around;
-    font-size: 0.8rem;
+
     position:absolute;
     bottom:0;
     width:100%;
-    padding-top:50px;
+
     height:50px;
 }
