@@ -13,13 +13,23 @@
 }
 
 footer{
-    background-color: aqua;
-    display: flex;
-    justify-content: space-around;
+    background-color: blueviolet;
+}
 
-    position:absolute;
-    bottom:0;
-    width:100%;
+img{
+    width: auto;
+    height: auto;
+}
 
-    height:50px;
+body{
+display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    background-image: url("/assets/ocean.jpg");
+    background-size: cover;
+
+    flex: 1;
 }

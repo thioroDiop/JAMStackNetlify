@@ -38,13 +38,17 @@ pagination:
     </nav>
 
     {%- for post in posts reversed -%}
-    <article>
+    <article style="text-align: center">
+
         <div class="div-article-header">
             <h2>
                 <a href="{{post.url | url}}">{{ post.data.title }}</a>
             </h2>
         </div>
-        <p>{{ post.templateContent | truncate: 512 }} <a href="{{post.url | url}}">(Lire la suite...)</a></p>
+        <div style="display: flex; flex-direction: row" >
+        <img src="/assets/reinedeSaba.jpg" style="max-width: 10rem"/>
+        <p>{{ post.templateContent | truncate: 512 }} </div><a href="{{post.url | url}}">(Lire la suite...)</a></p>
+
     </article>
     {%- endfor -%}
 </section>
