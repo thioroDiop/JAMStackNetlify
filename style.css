@@ -5,7 +5,9 @@
     /*flex-direction: row;*/
     /*justify-content: space-between;*/
     /*align-items: center;*/
-    background-color: blueviolet;
+    /*background-color: darkblue;*/
+
+
 }
 #nav-blog{
     display: flex;
@@ -13,11 +15,13 @@
 }
 
 footer{
-    background-color: blueviolet;
+    background-color: darkblue;
+    text-align: center;
 }
 
 img{
     width: 10rem;
+    color: black;
 }
 
 body{
@@ -50,6 +54,7 @@ nav>ul{
     list-style-type: none;
     justify-content: space-around;
     padding: 0;
+
 }
 
 @media all and (min-width: 450px){
