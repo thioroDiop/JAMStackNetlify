@@ -37,7 +37,13 @@ pagination:
         </ol>
     </nav>
 
-    {%- for post in posts reversed -%}
+
+
+        {%- for post in posts reversed -%}
+<div style="display: block; position: relative;
+    height: 100%;
+    overflow: hidden;
+    -webkit-user-drag: none;">
     <article style="text-align: center ;background: lightblue">
 
         <div class="div-article-header">
@@ -49,5 +55,6 @@ pagination:
         <p>{{ post.templateContent | truncate: 512 }} </div><a href="{{post.url | url}}">(Lire la suite...)</a></p>
 
     </article>
+</div>
     {%- endfor -%}
 </section>

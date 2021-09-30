@@ -1,5 +1,5 @@
 ---
-layout: root.html
+layout: post.html
 tags: posts
 title: C'est parti pour mon blog !!!
 

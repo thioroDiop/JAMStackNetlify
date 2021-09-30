@@ -1,6 +1,7 @@
 #navAcceuil {
     min-height: 3rem;
     padding: 0 1rem 0 0.8rem;
+    font-size: 30px;
     /*display: flex;*/
     /*flex-direction: row;*/
     /*justify-content: space-between;*/
@@ -20,8 +21,10 @@ footer{
 }
 
 img{
-    width: 10rem;
-    color: black;
+    /*width: 10rem;*/
+    border-radius: 50%;
+    width: 100px;
+
 }
 
 body{
@@ -55,13 +58,11 @@ nav>ul{
     justify-content: space-around;
     padding: 0;
 
+
 }
 
 @media all and (min-width: 450px){
     nav>ul {
         flex-direction: row;
     }
-}
-header{
-
 }
