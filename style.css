@@ -1,10 +1,10 @@
 #navAcceuil {
     min-height: 3rem;
     padding: 0 1rem 0 0.8rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
     background-color: blueviolet;
 }
 #nav-blog{
@@ -18,18 +18,45 @@ footer{
 
 img{
     width: 10rem;
-
 }
 
 body{
 display: flex;
+    /*le element du body sont en colonne*/
     flex-direction: column;
+    /*je demande au body de prendre toute la hauteur de l'écran ie 100% de la hauteur'*/
     min-height: 100vh;
-}
-
-main{
+    /*j'enléve la marge'*/
+    margin: 0;
     background-image: url("/assets/ocean.jpg");
     background-size: cover;
 
+}
+
+main{
+    /*background-image: url("/assets/ocean.jpg");*/
+
+    /*je demande au main de prendre toute la place disponible*/
     flex: 1;
+}
+
+/*ul directement sous un nav*/
+nav>ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*
+    on n'a plus les boulet'*/
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+}
+
+@media all and (min-width: 450px){
+    nav>ul {
+        flex-direction: row;
+    }
+}
+header{
+
 }

@@ -4,4 +4,5 @@ title: Accueil de mon blog
 permalink: /
 ---
 
-# Bienvenue sur le site
+# Bienvenue sur mon blog
+qui présente les princesses  africaines influentes des temps modernes qui oeuvrent pour leur pays.
